@@ -282,5 +282,14 @@ $$&lt;/p&gt;
       <description></description>
     </item>
     
+    <item>
+      <title>CV</title>
+      <link>https://mdochertyastro.github.io/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mdochertyastro.github.io/cv/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mdochertyastro.github.io/uploads/cv.pdf&#34;&gt;Download my CV&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
