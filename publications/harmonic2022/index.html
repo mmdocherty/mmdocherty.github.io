@@ -60,10 +60,10 @@
   
     
   
-  <meta name="description" content="PhD Student in Astroinformatics" />
+  <meta name="description" content="We resurrect the infamous harmonic mean estimator for computing the marginal likelihood (Bayesian evidence) and solve its problematic large variance. The marginal likelihood is a key component of Bayesian model selection since it is required to evaluate model posterior probabilities; however, its computation is challenging. The original harmonic mean estimator, first proposed in 1994 by Newton and Raftery, involves computing the harmonic mean of the likelihood given samples from the posterior. It was immediately realised that the original estimator can fail catastrophically since its variance can become very large and may not be finite. A number of variants of the harmonic mean estimator have been proposed to address this issue although none have proven fully satisfactory. We present the learnt harmonic mean estimator, a variant of the original estimator that solves its large variance problem. This is achieved by interpreting the harmonic mean estimator as importance sampling and introducing a new target distribution. The new target distribution is learned to approximate the optimal but inaccessible target, while minimising the variance of the resulting estimator. Since the estimator requires samples of the posterior only it is agnostic to the strategy used to generate posterior samples. We validate the estimator on a variety of numerical experiments, including a number of pathological examples where the original harmonic mean estimator fails catastrophically. In all cases our learnt harmonic mean estimator is shown to be highly accurate. The estimator is computationally scalable and can be applied to problems of dimension \mathcal{O}(10^3) and beyond. Code implementing the learnt harmonic mean estimator is made publicly available." />
 
   
-  <link rel="alternate" hreflang="en-uk" href="https://mdochertyastro.github.io/category/%E6%95%99%E7%A8%8B/" />
+  <link rel="alternate" hreflang="en-uk" href="https://mdochertyastro.github.io/publications/harmonic2022/" />
 
   
   
@@ -268,8 +268,6 @@
   
 
   
-    <link rel="alternate" href="/category/%E6%95%99%E7%A8%8B/index.xml" type="application/rss+xml" title="Matthew Docherty" />
-  
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -278,7 +276,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://mdochertyastro.github.io/category/%E6%95%99%E7%A8%8B/" />
+  <link rel="canonical" href="https://mdochertyastro.github.io/publications/harmonic2022/" />
 
   
   
@@ -301,14 +299,18 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Matthew Docherty" />
-  <meta property="og:url" content="https://mdochertyastro.github.io/category/%E6%95%99%E7%A8%8B/" />
-  <meta property="og:title" content="教程 | Matthew Docherty" />
-  <meta property="og:description" content="PhD Student in Astroinformatics" /><meta property="og:image" content="https://mdochertyastro.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://mdochertyastro.github.io/publications/harmonic2022/" />
+  <meta property="og:title" content="Machine learning assisted Bayesian model comparison: learnt harmonic mean estimator | Matthew Docherty" />
+  <meta property="og:description" content="We resurrect the infamous harmonic mean estimator for computing the marginal likelihood (Bayesian evidence) and solve its problematic large variance. The marginal likelihood is a key component of Bayesian model selection since it is required to evaluate model posterior probabilities; however, its computation is challenging. The original harmonic mean estimator, first proposed in 1994 by Newton and Raftery, involves computing the harmonic mean of the likelihood given samples from the posterior. It was immediately realised that the original estimator can fail catastrophically since its variance can become very large and may not be finite. A number of variants of the harmonic mean estimator have been proposed to address this issue although none have proven fully satisfactory. We present the learnt harmonic mean estimator, a variant of the original estimator that solves its large variance problem. This is achieved by interpreting the harmonic mean estimator as importance sampling and introducing a new target distribution. The new target distribution is learned to approximate the optimal but inaccessible target, while minimising the variance of the resulting estimator. Since the estimator requires samples of the posterior only it is agnostic to the strategy used to generate posterior samples. We validate the estimator on a variety of numerical experiments, including a number of pathological examples where the original harmonic mean estimator fails catastrophically. In all cases our learnt harmonic mean estimator is shown to be highly accurate. The estimator is computationally scalable and can be applied to problems of dimension \mathcal{O}(10^3) and beyond. Code implementing the learnt harmonic mean estimator is made publicly available." /><meta property="og:image" content="https://mdochertyastro.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://mdochertyastro.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-uk" />
   
     
-      <meta property="og:updated_time" content="2020-12-13T00:00:00&#43;00:00" />
+      <meta
+        property="article:published_time"
+        content="2022-01-31T00:00:00&#43;00:00"
+      />
     
+    <meta property="article:modified_time" content="2022-01-31T00:00:00&#43;00:00">
   
 
   
@@ -319,15 +321,17 @@
 
   
 
+  
 
 
 
 
-  <title>教程 | Matthew Docherty</title>
+
+  <title>Machine learning assisted Bayesian model comparison: learnt harmonic mean estimator | Matthew Docherty</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="76e8369ebb668bbf7967c69d95342d70" >
 
   
   
@@ -487,7 +491,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publications"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publications"><span>Publications</span></a>
         </li>
 
         
@@ -545,7 +549,9 @@
   </div>
 
   <div class="page-body">
-    
+    <article class="article">
+
+  
 
 
 
@@ -563,62 +569,13 @@
   
   
   
-    
-  
-<div class="universal-wrapper pt-3">
-  <h1>教程</h1>
+<div class="article-container pt-3">
+  <h1>Machine learning assisted Bayesian model comparison: learnt harmonic mean estimator</h1>
 
   
 
-  
-</div>
-
-
-
-<div class="universal-wrapper">
-  
-
-  
   
     
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/blog/getting-started/" >Welcome to Wowchemy, the website builder for Hugo</a>
-    </div>
-
-    
-    <a href="/blog/getting-started/"  class="summary-link">
-      <div class="article-style">
-        Welcome 👋 We know that first impressions are important, so we&rsquo;ve populated your new site with some initial content to help you get familiar with everything in no time.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
@@ -630,9 +587,11 @@
   <div>
     
 
-  <span class="author-highlighted">
-      Matthew Docherty</span>, <span >
-      吳恩達</span>
+  <span >
+      Jason D. McEwen</span>, <span >
+      Christopher G. R. Wallis</span>, <span >
+      Matthew A. Price</span>, <span >
+      Robert Ford</span>
   </div>
   
   
@@ -643,7 +602,7 @@
     
       
     
-    Dec 13, 2020
+    Jan 31, 2022
   </span>
   
 
@@ -660,36 +619,278 @@
 
   
   
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/demo/">Demo</a>, <a href="/category/%E6%95%99%E7%A8%8B/">教程</a></span>
-  
 
 </div>
 
-      
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="/publications/harmonic2022/harmonic2022.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publications/harmonic2022/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/astro-informatics/harmonic" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://www.youtube.com/watch?v=RHoQItSA4J4" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2111.12720" target="_blank" rel="noopener">
+    arXiv</a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <!-- <div class="alert alert-note">
+  <div>
+    Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  </div>
+</div>
+
+
+<div class="alert alert-note">
+  <div>
+    Create your slides in Markdown - click the <em>Slides</em> button to check out the example.
+  </div>
+</div>
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
+
     </div>
 
     
 
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/blog/getting-started/" >
-      <img src="/blog/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q75_lanczos.jpg" alt="Welcome to Wowchemy, the website builder for Hugo" loading="lazy">
-    </a>
-    
-  </div>
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/harmonic-mean-estimator/">harmonic mean estimator</a>
+  
+  <a class="badge badge-light" href="/tag/model-comparison/">model comparison</a>
+  
+  <a class="badge badge-light" href="/tag/bayesian-evidence/">Bayesian evidence</a>
+  
+  <a class="badge badge-light" href="/tag/marginal-likelihood/">marginal likelihood</a>
+  
 </div>
 
+
+
+<div class="share-box">
+  <ul class="share">
     
-  
-
-  
-
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://mdochertyastro.github.io/publications/harmonic2022/&amp;text=Machine%20learning%20assisted%20Bayesian%20model%20comparison:%20learnt%20harmonic%20mean%20estimator" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://mdochertyastro.github.io/publications/harmonic2022/&amp;t=Machine%20learning%20assisted%20Bayesian%20model%20comparison:%20learnt%20harmonic%20mean%20estimator" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Machine%20learning%20assisted%20Bayesian%20model%20comparison:%20learnt%20harmonic%20mean%20estimator&amp;body=https://mdochertyastro.github.io/publications/harmonic2022/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://mdochertyastro.github.io/publications/harmonic2022/&amp;title=Machine%20learning%20assisted%20Bayesian%20model%20comparison:%20learnt%20harmonic%20mean%20estimator" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Machine%20learning%20assisted%20Bayesian%20model%20comparison:%20learnt%20harmonic%20mean%20estimator%20https://mdochertyastro.github.io/publications/harmonic2022/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://mdochertyastro.github.io/publications/harmonic2022/&amp;title=Machine%20learning%20assisted%20Bayesian%20model%20comparison:%20learnt%20harmonic%20mean%20estimator" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
   </div>
 
   <div class="page-footer">
