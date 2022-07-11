@@ -37,9 +37,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Bayesian model comparison for simulation-based inference</title>
-      <link>https://mdochertyastro.github.io/talks/example/</link>
+      <link>https://mdochertyastro.github.io/talks/bdl_paris/</link>
       <pubDate>Wed, 22 Jun 2022 10:20:00 +0000</pubDate>
-      <guid>https://mdochertyastro.github.io/talks/example/</guid>
+      <guid>https://mdochertyastro.github.io/talks/bdl_paris/</guid>
       <description>&lt;!-- Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
