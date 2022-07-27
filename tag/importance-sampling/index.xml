@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Importance sampling | Matthew Docherty</title>
+    <link>https://mdochertyastro.github.io/tag/importance-sampling/</link>
+      <atom:link href="https://mdochertyastro.github.io/tag/importance-sampling/index.xml" rel="self" type="application/rss+xml" />
+    <description>Importance sampling</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language><lastBuildDate>Thu, 11 Mar 2021 10:20:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mdochertyastro.github.io/media/icon_huca7ed10aa5ae42a39ab8b5df6ac3c49a_28630_512x512_fill_lanczos_center_3.png</url>
+      <title>Importance sampling</title>
+      <link>https://mdochertyastro.github.io/tag/importance-sampling/</link>
+    </image>
+    
+    <item>
+      <title>Importance Sampling for Gravitational Wave Parameter Estimation</title>
+      <link>https://mdochertyastro.github.io/talks/msci_pres/</link>
+      <pubDate>Thu, 11 Mar 2021 10:20:00 +0000</pubDate>
+      <guid>https://mdochertyastro.github.io/talks/msci_pres/</guid>
+      <description>&lt;!-- Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
