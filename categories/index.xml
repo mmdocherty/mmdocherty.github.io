@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Matthew Docherty</title>
-    <link>https://mdochertyastro.github.io/categories/</link>
-      <atom:link href="https://mdochertyastro.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mmdocherty.github.io/categories/</link>
+      <atom:link href="https://mmdocherty.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language>
     <image>
-      <url>https://mdochertyastro.github.io/media/icon_huca7ed10aa5ae42a39ab8b5df6ac3c49a_28630_512x512_fill_lanczos_center_3.png</url>
+      <url>https://mmdocherty.github.io/media/icon_huca7ed10aa5ae42a39ab8b5df6ac3c49a_28630_512x512_fill_lanczos_center_3.png</url>
       <title>Categories</title>
-      <link>https://mdochertyastro.github.io/categories/</link>
+      <link>https://mmdocherty.github.io/categories/</link>
     </image>
     
   </channel>

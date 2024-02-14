@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Outreach | Matthew Docherty</title>
-    <link>https://mdochertyastro.github.io/tag/outreach/</link>
-      <atom:link href="https://mdochertyastro.github.io/tag/outreach/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mmdocherty.github.io/tag/outreach/</link>
+      <atom:link href="https://mmdocherty.github.io/tag/outreach/index.xml" rel="self" type="application/rss+xml" />
     <description>Outreach</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language><lastBuildDate>Tue, 12 Jul 2022 10:20:00 +0000</lastBuildDate>
     <image>
-      <url>https://mdochertyastro.github.io/media/icon_huca7ed10aa5ae42a39ab8b5df6ac3c49a_28630_512x512_fill_lanczos_center_3.png</url>
+      <url>https://mmdocherty.github.io/media/icon_huca7ed10aa5ae42a39ab8b5df6ac3c49a_28630_512x512_fill_lanczos_center_3.png</url>
       <title>Outreach</title>
-      <link>https://mdochertyastro.github.io/tag/outreach/</link>
+      <link>https://mmdocherty.github.io/tag/outreach/</link>
     </image>
     
     <item>
       <title>UCL CDT in Data Intensive Science: A Year in Review</title>
-      <link>https://mdochertyastro.github.io/talks/jordan_summer_school/</link>
+      <link>https://mmdocherty.github.io/talks/jordan_summer_school/</link>
       <pubDate>Tue, 12 Jul 2022 10:20:00 +0000</pubDate>
-      <guid>https://mdochertyastro.github.io/talks/jordan_summer_school/</guid>
+      <guid>https://mmdocherty.github.io/talks/jordan_summer_school/</guid>
       <description>&lt;!-- Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file

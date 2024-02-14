@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://mdochertyastro.github.io/sitemap.xml
+Sitemap: https://mmdocherty.github.io/sitemap.xml

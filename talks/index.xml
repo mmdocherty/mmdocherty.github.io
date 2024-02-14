@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks | Matthew Docherty</title>
-    <link>https://mdochertyastro.github.io/talks/</link>
-      <atom:link href="https://mdochertyastro.github.io/talks/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mmdocherty.github.io/talks/</link>
+      <atom:link href="https://mmdocherty.github.io/talks/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language><lastBuildDate>Fri, 15 Jul 2022 10:20:00 +0000</lastBuildDate>
     <image>
-      <url>https://mdochertyastro.github.io/media/icon_huca7ed10aa5ae42a39ab8b5df6ac3c49a_28630_512x512_fill_lanczos_center_3.png</url>
+      <url>https://mmdocherty.github.io/media/icon_huca7ed10aa5ae42a39ab8b5df6ac3c49a_28630_512x512_fill_lanczos_center_3.png</url>
       <title>Talks</title>
-      <link>https://mdochertyastro.github.io/talks/</link>
+      <link>https://mmdocherty.github.io/talks/</link>
     </image>
     
     <item>
       <title>Deep Learning for Natural Language Processing</title>
-      <link>https://mdochertyastro.github.io/talks/nlp_guest_lecture/</link>
+      <link>https://mmdocherty.github.io/talks/nlp_guest_lecture/</link>
       <pubDate>Fri, 15 Jul 2022 10:20:00 +0000</pubDate>
-      <guid>https://mdochertyastro.github.io/talks/nlp_guest_lecture/</guid>
+      <guid>https://mmdocherty.github.io/talks/nlp_guest_lecture/</guid>
       <description>&lt;!-- Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
@@ -29,9 +29,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>UCL CDT in Data Intensive Science: A Year in Review</title>
-      <link>https://mdochertyastro.github.io/talks/jordan_summer_school/</link>
+      <link>https://mmdocherty.github.io/talks/jordan_summer_school/</link>
       <pubDate>Tue, 12 Jul 2022 10:20:00 +0000</pubDate>
-      <guid>https://mdochertyastro.github.io/talks/jordan_summer_school/</guid>
+      <guid>https://mmdocherty.github.io/talks/jordan_summer_school/</guid>
       <description>&lt;!-- Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
@@ -44,9 +44,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Bayesian model comparison for simulation-based inference</title>
-      <link>https://mdochertyastro.github.io/talks/bdl_paris/</link>
+      <link>https://mmdocherty.github.io/talks/bdl_paris/</link>
       <pubDate>Wed, 22 Jun 2022 10:20:00 +0000</pubDate>
-      <guid>https://mdochertyastro.github.io/talks/bdl_paris/</guid>
+      <guid>https://mmdocherty.github.io/talks/bdl_paris/</guid>
       <description>&lt;!-- Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
@@ -59,9 +59,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Importance Sampling for Gravitational Wave Parameter Estimation</title>
-      <link>https://mdochertyastro.github.io/talks/msci_pres/</link>
+      <link>https://mmdocherty.github.io/talks/msci_pres/</link>
       <pubDate>Thu, 11 Mar 2021 10:20:00 +0000</pubDate>
-      <guid>https://mdochertyastro.github.io/talks/msci_pres/</guid>
+      <guid>https://mmdocherty.github.io/talks/msci_pres/</guid>
       <description>&lt;!-- Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
